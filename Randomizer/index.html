@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta http-equiv= "Content-Type" content="text/html; charset=utf-8" /> 
+	<title>Christmas list</title>
+	<link rel="stylesheet" type="text/css" href="Styles.css">
+	<script src="radomizer.js"></script>
+</head>
+<body onload="crankTheTunes()">
+	
+	<audio id="music">
+	<source src="musicFiles/toTheGhetto.mp3" type="audio/mpeg"> 
+	Your browser does not support audio element
+	</audio>
+<h1>Christmas Grab Bag</h1>
+
+<table id="table">
+<tr>
+	<td>
+name:<input type="text" id="first" name="firstName" required=""/>
+</td>
+</tr>
+<tr>
+	<td>
+		<button type="submit" onclick= "choose()" >Submit</button>
+		<button onclick="pause()">Stop Music</button>
+	</td>
+</tr>
+</table>
+
+
+
+
+</body>
+</html>
